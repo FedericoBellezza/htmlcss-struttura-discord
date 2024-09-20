@@ -41,3 +41,37 @@
 .debug .debug .debug .debug .debug .debug .debug {
 	background-color: #292929;
 }
+
+/* HEADER */
+.header-box {
+	display: flex;
+	justify-content: space-between;
+	margin-block: 20px;
+}
+
+nav > ul > li {
+	display: inline-block;
+}
+
+nav > ul {
+	text-align: center;
+}
+
+.login-box {
+	text-align: end;
+}
+
+.logo-box,
+.link-box,
+.login-box {
+	padding: 10px;
+}
+
+.link-box {
+	flex-grow: 2;
+}
+
+.logo-box,
+.login-box {
+	flex-grow: 1;
+}

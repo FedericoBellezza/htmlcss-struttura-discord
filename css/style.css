@@ -75,3 +75,11 @@ nav > ul {
 .login-box {
 	flex-grow: 1;
 }
+
+/* HERO */
+.hero-container {
+	height: 400px;
+	max-width: 900px;
+	margin: auto;
+	margin-block: 40px;
+}

@@ -13,7 +13,7 @@
 }
 
 /* DEBUG */
-.debug {
+/* .debug {
 	background-color: #ddfcad;
 	border: 1px dashed black;
 }
@@ -40,13 +40,15 @@
 }
 .debug .debug .debug .debug .debug .debug .debug {
 	background-color: #292929;
-}
+} */
 
 /* HEADER */
 .header-box {
 	display: flex;
 	justify-content: space-between;
 	margin-block: 20px;
+	background-color: rgb(231, 113, 70);
+	border: 1px dashed black;
 }
 
 nav > ul > li {
@@ -61,10 +63,15 @@ nav > ul {
 	text-align: end;
 }
 
+header {
+	background-color: lightblue;
+}
+
 .logo-box,
 .link-box,
 .login-box {
 	padding: 10px;
+	border: 1px dashed black;
 }
 
 .link-box {
@@ -77,11 +84,16 @@ nav > ul {
 }
 
 /* HERO */
+.hero {
+	background-color: blue;
+}
+
 .hero-container {
 	height: 400px;
 	max-width: 900px;
 	margin: auto;
 	margin-block: 40px;
+	background-color: purple;
 }
 
 /* MAIN */

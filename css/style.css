@@ -83,3 +83,41 @@ nav > ul {
 	margin: auto;
 	margin-block: 40px;
 }
+
+/* MAIN */
+.lg-content,
+.sm-content {
+	height: 500px;
+	margin-block: 50px;
+}
+
+.lg-content {
+	flex-grow: 2;
+}
+
+.sm-content {
+	flex-grow: 1;
+}
+
+.content-box {
+	display: flex;
+}
+
+.section-box {
+	width: 100%;
+}
+
+.section-box:nth-child(even) {
+	background-color: lightblue;
+	flex-direction: row-reverse;
+}
+
+.section-box:nth-child(even) .content-box {
+	flex-direction: row-reverse;
+}
+
+.only-content {
+	height: 700px;
+	width: 100%;
+	margin-block: 50px;
+}

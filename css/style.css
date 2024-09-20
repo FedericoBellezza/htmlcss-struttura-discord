@@ -121,3 +121,43 @@ nav > ul {
 	width: 100%;
 	margin-block: 50px;
 }
+
+/* FOOTER */
+.main-content-footer {
+	display: flex;
+	margin-block: 50px;
+}
+
+.sm-content-footer {
+	flex-grow: 1;
+}
+.lg-content-footer {
+	flex-grow: 2;
+	display: flex;
+}
+
+.split-content-footer {
+	height: 500px;
+	flex-grow: 1;
+}
+
+.logo-footer {
+	height: ;
+}
+
+.secondary-content-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+	margin-block: 50px;
+}
+
+.logo-footer,
+.btn-footer {
+	height: 50px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

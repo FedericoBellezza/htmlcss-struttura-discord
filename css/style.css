@@ -1,0 +1,43 @@
+/* # RESET */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* # UTILS */
+.container {
+	margin: 0 auto;
+	width: 1200px;
+	max-width: 100%;
+}
+
+/* DEBUG */
+.debug {
+	background-color: #ddfcad;
+	border: 1px dashed black;
+}
+
+.debug .debug {
+	background-color: #c8e087;
+}
+
+.debug .debug .debug {
+	background-color: #95a472;
+}
+
+.debug .debug .debug .debug {
+	background-color: #82846d;
+	color: white;
+}
+
+.debug .debug .debug .debug .debug {
+	background-color: #646165;
+}
+
+.debug .debug .debug .debug .debug .debug {
+	background-color: #454545;
+}
+.debug .debug .debug .debug .debug .debug .debug {
+	background-color: #292929;
+}
